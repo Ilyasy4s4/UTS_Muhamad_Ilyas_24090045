@@ -1,7 +1,7 @@
 # UTS Pemrograman Web 1
 
 * **Nama:** [Muhamad Ilyas]
-* **NIM:** [Muhamad llyas]
+* **NIM:** [24090045]
 
 **Link GitHub Repository:** `[https://github.com/Ilyasy4s4/UTS_Muhamad_Ilyas_24090045]`
 **Link GitHub Pages:** `[https://ilyasy4s4.github.io/UTS_Muhamad_Ilyas_24090045/]` 
