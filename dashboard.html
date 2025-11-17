@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dashboard - UTS</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <nav>
+        <ul>
+          <li class="active" title="Home">
+            <a href="dashboard.html">
+              <span class="sb-ico">🏠</span>
+            </a>
+          </li>
+          <li title="Products">
+            <a href="products.html"><span class="sb-ico">📦</span></a>
+          </li>
+          <li title="Sales">
+            <a href="#"><span class="sb-ico">💲</span></a>
+          </li>
+          <li title="Reports">
+            <a href="#"><span class="sb-ico">📊</span></a>
+          </li>
+          <li title="Settings">
+            <a href="#"><span class="sb-ico">⚙️</span></a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+      <header class="page-header">
+        <h1>Dashboard</h1>
+        <div class="header-actions">
+          <button id="btnViewProducts" class="btn">Lihat Data Produk</button>
+          <button id="logoutBtn" class="btn outline">Logout</button>
+        </div>
+      </header>
+
+      <section class="card-wrap">
+        <div class="cards" id="summaryCards">
+          <!-- cards inserted by JS -->
+        </div>
+
+        <div class="panel">
+          <!-- Placeholder big panel (mirip screenshot) -->
+          <div class="panel-empty"> </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

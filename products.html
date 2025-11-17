@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Daftar Produk - UTS</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <nav>
+        <ul>
+          <li title="Home"><a href="dashboard.html"><span class="sb-ico">🏠</span></a></li>
+          <li class="active" title="Products"><a href="products.html"><span class="sb-ico">📦</span></a></li>
+          <li title="Sales"><a href="#"><span class="sb-ico">💲</span></a></li>
+          <li title="Reports"><a href="#"><span class="sb-ico">📊</span></a></li>
+          <li title="Settings"><a href="#"><span class="sb-ico">⚙️</span></a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+      <header class="page-header">
+        <h1>List Data Product</h1>
+        <div class="header-actions">
+          <button id="logoutBtn2" class="btn outline">Logout</button>
+        </div>
+      </header>
+
+      <section class="table-card">
+        <table id="productsTable" class="table">
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Product Name</th>
+              <th>Price</th>
+              <th>Stock</th>
+              <th>Aksi</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
+    </main>
+  </div>
+
+  <!-- Edit -->
+  <div id="editModal" class="modal hidden" aria-hidden="true">
+    <div class="modal-content">
+      <h3>Edit Produk</h3>
+      <label>Nama</label>
+      <input type="text" id="editName" />
+      <label>Harga</label>
+      <input type="number" id="editPrice" />
+      <label>Stok</label>
+      <input type="number" id="editStock" />
+      <div class="modal-actions">
+        <button id="saveEditBtn" class="btn primary">Simpan</button>
+        <button id="closeModalBtn" class="btn outline">Batal</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
